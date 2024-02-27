@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+<h2>🚀 Demo</h2>
+
+[See Live Site:](https://nextjs-raectjs-assignment.vercel.app/)
+
 First, run the development server:
 
 ```bash
