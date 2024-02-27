@@ -1,13 +1,19 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Mainpage from './components/Mainpage'
 import RelatedProduct from './components/RelatedProduct'
 import Footer from './components/Footer'
 
 const page = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+     setDarkMode(!darkMode);
+  }
   return (
-    <div className='font-poppins'>
-      <Navbar />
+    <div className={`${darkMode && "dark"}`}>
+      <Navbar handler={toggleDarkMode} darkMode={darkMode}/>
       <Mainpage />
       <RelatedProduct />
       <Footer />
