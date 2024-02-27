@@ -19,7 +19,7 @@ const Navbar = (props) => {
                 <span>Website Builders</span>
                 <span className='ml-2 md:ml-5 lg:ml-10'>Today's deals</span>
             </div>
-            <button className='w-12 h-12 bg-black dark:bg-blue-50 rounded-full px-4 py-2 text-yellow-500' onClick={() => props.handler()}>{props.darkMode ? <MdSunny /> : <FaMoon />}</button>
+            <button className='w-12 h-12 bg-black dark:bg-white rounded-full px-4 py-2 text-yellow-400' onClick={() => props.handler()}>{props.darkMode ? <MdSunny /> : <FaMoon />}</button>
         </div>
     )
 }
