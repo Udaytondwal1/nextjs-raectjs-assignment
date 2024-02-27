@@ -57,7 +57,8 @@ const Mainpage = () => {
                         <div className='flex items-center gap-1 text-blue-500'><span>Show more</span><IoIosArrowDown /></div>
                     </div>
                     <div className='w-1/4 h-full px-2 lg:px-4 text-sm  text-center dark:bg-zinc-700 rounded-r-md'>
-                        <div className='lg:w-32 w-20 py-2 lg:mx-auto rounded-b-lg h-28 bg-blue-50 text-black'>
+                        <div className='relative lg:w-32 w-20 py-2 lg:py-5 lg:mx-auto rounded-b-xl h-28 lg:h-32 bg-blue-50 text-black'>
+                            <div className='absolute left-24 top-2 text-zinc-600 text-xs'><SlInfo /></div>
                             <h1 className='mb-4 text-3xl font-medium'>9.8</h1>
                             <div className='mb-1'>Exceptional</div>
                             <div className='flex justify-center text-yellow-500'><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /></div>
@@ -80,7 +81,8 @@ const Mainpage = () => {
                         <div className='flex items-center gap-1 text-blue-500'><span>Show more</span><IoIosArrowDown /></div>
                     </div>
                     <div className='w-1/4 h-full px-2 lg:px-4 text-sm  text-center dark:bg-zinc-700 rounded-r-md'>
-                        <div className='lg:w-32 w-20 py-2 lg:mx-auto rounded-b-lg h-28 bg-blue-50 text-black'>
+                        <div className='relative lg:w-32 w-20 py-2 lg:py-5 lg:mx-auto rounded-b-xl h-28 lg:h-32 bg-blue-50 text-black'>
+                        <div className='absolute left-24 top-2 text-zinc-600 text-xs'><SlInfo /></div>
                             <h1 className='mb-4 text-3xl font-medium'>9.5</h1>
                             <div className='mb-1'>Excellent</div>
                             <div className='flex justify-center text-yellow-500'><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStarHalf /></div>
@@ -103,7 +105,7 @@ const Mainpage = () => {
                         <div className='flex items-center gap-1 text-blue-500'><span>Show more</span><IoIosArrowDown /></div>
                     </div>
                     <div className='w-1/4 h-full px-2 lg:px-4 text-sm  text-center dark:bg-zinc-700 rounded-r-md'>
-                        <div className='lg:w-32 w-20 py-2 lg:mx-auto rounded-b-lg h-28 bg-blue-50 text-black'>
+                        <div className='lg:w-32 w-20 py-2 lg:py-5 lg:mx-auto rounded-b-lg h-28 lg:h-32 bg-blue-50 text-black'>
                             <h1 className='mb-4 text-3xl font-medium'>9.3</h1>
                             <div className='mb-1'>Exceptional</div>
                             <div className='flex justify-center text-yellow-500'><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /></div>
@@ -148,7 +150,7 @@ const Mainpage = () => {
                         <div className='flex items-center gap-1 text-blue-500'><span>Show more</span><IoIosArrowDown /></div>
                     </div>
                     <div className='w-1/4 h-full px-2 lg:px-4 text-sm  text-center dark:bg-zinc-700 rounded-r-md'>
-                        <div className='lg:w-32 w-20 py-2 lg:mx-auto rounded-b-lg h-28 bg-blue-50 text-black'>
+                        <div className='lg:w-32 w-20 py-2 lg:py-5 lg:mx-auto rounded-b-lg h-28 lg:h-32 bg-blue-50 text-black'>
                             <h1 className='mb-4 text-3xl font-medium'>9.1</h1>
                             <div className='mb-1'>Very Good</div>
                             <div className='flex justify-center text-yellow-500'><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiSolidStar /><BiStar /></div>
