@@ -6,6 +6,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 [See Live Site:](https://nextjs-raectjs-assignment.vercel.app/)
 
+<h2>🌜 Now With Dark Mode</h2>
+
 First, run the development server:
 
 ```bash
