@@ -14,7 +14,7 @@ import { IoDiamondOutline } from "react-icons/io5";
 
 const Mainpage = () => {
     return (
-        <div className=' w-full overflow-hidden h-full px-2 py-5 lg:py-10 lg:px-64 Main-container bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-300 md:px-20'>
+        <div className=' w-full overflow-hidden h-full px-2 py-5 lg:py-10 lg:px-64 Main-container bg-zinc-50 dark:bg-zinc-800 dark:text-zinc-300 md:px-20'>
             <span className='text-2xl lg:text-5xl'>Best Website builders in the US</span>
             <div className='text-[10px] lg:text-sm lg:mt-7 lg:mb-14'>
                 <div className='line w-full h-[1.5px] bg-zinc-200'></div>
