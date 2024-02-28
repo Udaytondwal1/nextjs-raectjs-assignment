@@ -1,3 +1,7 @@
+<h1 align="center" id="title">NEXT/React JS Assignment by Rediant Riches LLC</h1>
+
+<p id="description">This is the Solution of the Assignment given by Rediant Riches LLC. Objective: Convert a one-page Figma design into a NextJS/ReactJS website, focusing on modular components and project structure.</p>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -7,6 +11,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 [See Live Site:](https://nextjs-raectjs-assignment.vercel.app/)
 
 <h2>🌜 Now With Dark Mode</h2>
+
+   
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   HTML5
+*   Tailwind CSS
+*   NEXT JS
+*   React JS
 
 First, run the development server:
 
